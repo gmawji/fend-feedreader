@@ -107,6 +107,7 @@ $(function() {
          * Remember, loadFeed() is asynchronous.
          */
         var loadFeed1, loadFeed2;
+        // Solution thanks to aarombutler Udacity forum post!
         beforeEach(function(done) {
             loadFeed(0, function() {
                 loadFeed1 = $('.feed').text();
